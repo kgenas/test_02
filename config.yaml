@@ -5,3 +5,6 @@ parsers:
   - file: ./parsers/search.rb
     page_type: search
     disabled: false
+  - file: ./parsers/product.rb
+    page_type: product
+    disabled: false
