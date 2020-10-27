@@ -8,3 +8,11 @@ parsers:
   - file: ./parsers/product.rb
     page_type: product
     disabled: false
+exporters:
+  - exporter_name: json_01
+    exporter_type: json
+    collection: products
+    write_mode: pretty_array
+    limit: 10
+    offset: 10
+    start_on_job_done: true
